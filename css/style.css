@@ -222,39 +222,19 @@ header .fab:hover {
 	color: #ffffff;
 }
 
-/* About Us Section */
-/*@media screen and (min-width: 40em) {
-  .about-us-gallery {
-    height: 35rem;
-    position: relative; } }
 
-@media screen and (min-width: 40em) {
-  .about-us-gallery {
-    height: 26.25rem; } }
-
-@media screen and (min-width: 40em) {
-  .about-us-gallery .empty {
-    height: 35rem; } }
-
-@media screen and (min-width: 40em) {
-  .about-us-gallery .empty {
-    height: 26.25rem; } }
-
-@media screen and (min-width: 40em) {
-  .about-us-gallery div.content-about-us {
-    position: absolute;
-    top: 1.25rem;
-    left: 0;
-    width: 100%; } }
-
-.bluebg {
-  background-color: #f6fcfd; 
+@media (min-width: 768px) {
+	.about-us-gradient {
+		margin-top: 4rem;
+		padding-top: .1rem;
+		padding-bottom: 3rem;
+		background: linear-gradient(
+			to right, 
+			#fae5ea 0%, 
+			#fae5ea 50%, 
+			#f6fbfe 50%, 
+			#f6fbfe 100%
+		);
+	}
 }
 
-.pinkbg {
-	background-color: #fae5e9;
-}
-
-
-
-*/
