@@ -37,6 +37,12 @@ p {
 	padding-bottom: 1em;
 }
 
+header .fab:hover {
+  text-decoration: none;
+  color: #e8f7fb;
+  background: #f18a9a;
+}
+
 .bg-eggshell {
 	background: #e8f7fb;
 }
@@ -65,6 +71,10 @@ p {
 .logo {
 	display: block;
 	margin: 2em auto 2em;
+}
+
+.sarah-img {
+	max-width: 65%;
 }
 
 .navbar {
@@ -130,6 +140,14 @@ p {
 }
 
 
+/* -- TESTIMONIALS -- */
+.testimonials .testimonial-text {
+	position: relative;
+	font-size: 1rem;
+	line-height: 2.6rem;
+	font-weight: 400;
+}
+
 /* -- FOOTER -- */
 footer {
 	background-color: #9bccd8;
@@ -180,7 +198,6 @@ footer {
 	vertical-align: -25%;
 }
 
-
 footer .fab:hover {
   opacity: 0.7;
   text-decoration: none;
@@ -191,12 +208,6 @@ footer .fab:hover {
   opacity: 0.7;
   text-decoration: none;
   color: #9bccd8;
-}
-
-header .fab:hover {
-  text-decoration: none;
-  color: #e8f7fb;
-  background: #f18a9a;
 }
 
 .fa-facebook-f {
@@ -226,7 +237,7 @@ header .fab:hover {
 @media (min-width: 768px) {
 	.about-us-gradient {
 		margin-top: 4rem;
-		padding-top: .1rem;
+		padding-top: 3rem;
 		padding-bottom: 3rem;
 		background: linear-gradient(
 			to right, 
@@ -237,4 +248,3 @@ header .fab:hover {
 		);
 	}
 }
-
