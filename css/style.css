@@ -82,15 +82,31 @@ header .fab:hover {
 	border-bottom: 1px solid #e1e1e1;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
 	color: #333333;
 	text-transform: uppercase;
 	font-size: 1.125em;
 	font-weight: 700;
 }
 
-.nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
 	color: #f0aab5;
+}
+
+/** Dropdown **/
+.dropdown-menu {
+	background-color: #ffffff; 
+}
+.dropdown-menu .dropdown-item {
+	color: #333333;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .8rem;
+	text-align: center;
+}
+.dropdown-menu .dropdown-item:hover {
+	color: #f0aab5;
+	background-color: #ffffff;
 }
 
 .carousel-indicators li {
@@ -134,9 +150,29 @@ header .fab:hover {
 	border-radius: 10px;
 }
 
+.btn-outline-light {
+	border-radius: 10px;
+}
+
 .btn-signup:hover,
 .btn-contact:hover {
 	background: #f18a9a;
+}
+
+.photo-overlay {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0, .4);
 }
 
 
@@ -144,7 +180,7 @@ header .fab:hover {
 .testimonials .testimonial-text {
 	position: relative;
 	font-size: 1rem;
-	line-height: 2.6rem;
+	line-height: 1.8rem;
 	font-weight: 400;
 }
 
@@ -248,3 +284,10 @@ footer .fab:hover {
 		);
 	}
 }
+
+@media (min-width: 1000px) {
+	.dropdown-menu .dropdown-item {
+		text-align: left;
+	} 
+}
+
